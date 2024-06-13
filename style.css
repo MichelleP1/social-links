@@ -12,7 +12,7 @@
   --dark-grey: hsl(0, 0%, 12%);
   --off-black: hsl(0, 0%, 8%);
 
-  --font-family-default: "Inter", sans-serif;
+  --font-family-default: "Inter";
   --font-size-sm: 11px;
   --font-size-md: 14px;
   --font-size-lg: 24px;
@@ -111,6 +111,11 @@ h3 {
 
   margin-top: var(--margin-lg);
   height: 289px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
 
   :hover {
     background-color: var(--green);
